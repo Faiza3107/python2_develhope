@@ -1,0 +1,21 @@
+name = ["John","Tristram","Baldwin", "Wally",]
+surname = ["Doe","McBride", "Preston", "Collins"]
+
+def greet (name, surname):
+      print(f"Hello {name} {surname} !")
+greet(name[0],surname[0])
+
+for i in range(len(name)):
+  def greet (name, surname):
+      print(f"Hello {name} {surname} !")
+greet(name[1],surname [1]) 
+
+for i in range(len(name)):
+  def greet (name, surname):
+      print(f"Hello {name} {surname} !")
+greet(name[2],surname [2])
+
+for i in range(len(name)):
+  def greet (name, surname):
+      print(f"Hello {name} {surname} !")
+greet(name[3],surname [3])
