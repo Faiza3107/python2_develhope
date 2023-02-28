@@ -1,0 +1,6 @@
+import random 
+def random_list_number(n=15):
+    x = [random.randint(-100,100) for i in range(n)]
+    print(x)
+    print(sum(x)) 
+random_list_number()
