@@ -1,6 +1,0 @@
- #Implement Fibonacci sequence as recursive function and print first 5 elements
-
-n=3
-list = [0,1]
-[list.append(list[-1] + list[-2]) for i in range (0,n)]
-print(list)
