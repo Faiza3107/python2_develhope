@@ -1,0 +1,5 @@
+my_list= [*range(5)] 
+f = lambda x:x**2
+for i in my_list:
+  if x%2 == 0:
+   print(f(i))
