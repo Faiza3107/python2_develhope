@@ -1,0 +1,27 @@
+class Animal:
+  def __init__(self,count_legs):
+    self.number_of_legs = count_legs 
+
+  def count_legs(self):
+     print (self.number_of_legs)
+        
+  def number_of_legs(self):
+      return self.number_of_legs
+        
+a = Animal(4)
+
+class Dog(Animal):
+    def __init__(self,count_legs, name):
+        super().__init__(count_legs)
+        self._name = name
+    
+    def get_name(self):
+        return self._name
+    
+    def bark(self):
+        print('woof woof')
+        
+b = Dog(4,'puffy')
+print(f'name of the dog is {b.get_name()}')
+b.bark()
+b.count_legs()
